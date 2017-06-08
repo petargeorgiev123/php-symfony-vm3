@@ -9,6 +9,8 @@ Create cueball_audit dataabse
 mysql -u root -p cueball_audit < /vagrant/cueball_audit_2017-06-03.sql
 
 put /etc/hosts
+127.0.0.1 vm3.dev
+127.0.0.1 vm3-front.dev
 
 installing redis but is braking mysql :((
 https://anton.logvinenko.name/en/blog/how-to-install-redis-and-redis-php-client.html
