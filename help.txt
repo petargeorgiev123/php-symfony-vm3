@@ -1,0 +1,19 @@
+sudo a2dismod php5
+sudo service apache2 restart
+sudo a2enmod php5.6
+sudo service apache2 restart
+
+import database
+mysql -u root -p cueball < /vagrant/cueball_2017-06-03.sql
+Create cueball_audit dataabse
+mysql -u root -p cueball_audit < /vagrant/cueball_audit_2017-06-03.sql
+
+put /etc/hosts
+
+installing redis but is braking mysql :((
+https://anton.logvinenko.name/en/blog/how-to-install-redis-and-redis-php-client.html
+
+
+Si hay problemas del serializer
+vendor/doctrine/cache/lib/Doctrine/Common/Cache/RedisCache.php
+return  Redis::SERIALIZER_PHP;

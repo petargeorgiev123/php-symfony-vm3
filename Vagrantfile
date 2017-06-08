@@ -38,7 +38,6 @@ Vagrant.configure("2") do |config|
     config.vm.box = "ubuntu/trusty64"
 
     config.vm.network "private_network", ip: "192.168.33.99"
-    config.vm.network "forwarded_port", guest: 3306, host: 3306
     #config.vm.network :private_network, ip: "192.168.33.99"
     #config.ssh.forward_agent = true
 
@@ -54,5 +53,6 @@ Vagrant.configure("2") do |config|
         config.vm.provision :shell, path: "ansible/windows.sh", args: ["default-vm3"]
     end
 
-    config.vm.synced_folder "./", "vagrant", type: "nfs"
+    #config.vm.synced_folder "./", "/vagrant", type: "nfs"
+    config.vm.synced_folder "./", "/vagrant", type: "nfs", mount_options: ['nolock,vers=3,udp,noatime,actimeo=1']
 end

@@ -13,7 +13,7 @@ apache:
 mysql:
     install: '1'
     root_password: root
-    database: db
+    database: cueball
     user: user
     password: password
     dump: ''
@@ -22,7 +22,7 @@ php:
 #    ppa: php5-5.6
 #    packages: [php5-cli, php5-intl, php5-mcrypt, php5-mysql]
     ppa: php
-    packages: [php5.6-cli, php5.6-intl, php5.6-mcrypt, php5.6-curl, php5.6-gd, php5.6-mysql, php5.6-xdebug, php5.6-dev, php5.6-mbstring, php5.6-dom, php5.6-bcmath]
+    packages: [php5.6-cli, php5.6-intl, php5.6-mcrypt, php5.6-curl, php5.6-gd, php5.6-mysql, php5.6-xdebug, php5.6-dev, php5.6-mbstring, php5.6-dom, php5.6-bcmath, libapache2-mod-php5.6]
 xdebug:
     install: '1'
 composer:
