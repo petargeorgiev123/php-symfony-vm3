@@ -19,3 +19,6 @@ https://anton.logvinenko.name/en/blog/how-to-install-redis-and-redis-php-client.
 Si hay problemas del serializer
 vendor/doctrine/cache/lib/Doctrine/Common/Cache/RedisCache.php
 return  Redis::SERIALIZER_PHP;
+
+GITHUB AUTH
+https://github.com/composer/composer/issues/3542

@@ -82,11 +82,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="help.txt" pinned="false" current-in-tab="false">
+      <file leaf-file-name="help.txt" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/help.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="2" column="18" selection-start-line="0" selection-start-column="0" selection-end-line="3" selection-end-column="28" />
+            <state vertical-scroll-proportion="0.8712121">
+              <caret line="23" column="25" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -102,10 +102,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="all.yml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="all.yml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ansible/vars/all.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.54545456">
+            <state vertical-scroll-proportion="0.0">
               <caret line="24" column="179" selection-start-line="24" selection-start-column="164" selection-end-line="24" selection-end-column="185" />
               <folding />
             </state>
@@ -131,7 +131,6 @@
         <option value="$PROJECT_DIR$/cueball-frontend/src/Cueball/FrontendBundle/Service/RedisConnectionManager.php" />
         <option value="$PROJECT_DIR$/ansible/roles/apache/templates/vhost24.conf.tpl" />
         <option value="$PROJECT_DIR$/cueball-frontend/src/Cueball/FrontendBundle/Service/ApiWrapper.php" />
-        <option value="$PROJECT_DIR$/help.txt" />
         <option value="$PROJECT_DIR$/ansible/vars/all.yml" />
         <option value="$PROJECT_DIR$/ansible/roles/nginx/handlers/main.yml" />
         <option value="$PROJECT_DIR$/ansible/roles/nginx/templates/server.j2" />
@@ -139,6 +138,7 @@
         <option value="$PROJECT_DIR$/ansible/roles/php/tasks/configure.yml" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/ansible/playbook.yml" />
+        <option value="$PROJECT_DIR$/help.txt" />
       </list>
     </option>
   </component>
@@ -712,18 +712,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/help.txt">
+    <entry file="file://$PROJECT_DIR$/ansible/vars/all.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="2" column="18" selection-start-line="0" selection-start-column="0" selection-end-line="3" selection-end-column="28" />
+          <caret line="24" column="179" selection-start-line="24" selection-start-column="164" selection-end-line="24" selection-end-column="185" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ansible/vars/all.yml">
+    <entry file="file://$PROJECT_DIR$/help.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.54545456">
-          <caret line="24" column="179" selection-start-line="24" selection-start-column="164" selection-end-line="24" selection-end-column="185" />
+        <state vertical-scroll-proportion="0.8712121">
+          <caret line="23" column="25" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
           <folding />
         </state>
       </provider>
